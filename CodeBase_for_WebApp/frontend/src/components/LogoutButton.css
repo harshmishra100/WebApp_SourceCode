@@ -1,0 +1,48 @@
+.logout-container {
+    position: relative;
+    display: inline-block;
+}
+
+.logout-popup {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    animation: fadeIn 0.3s ease forwards;
+    margin-top: 120px;
+    margin-left: 40px;
+    width: 800px;
+    height: 250px;
+}
+
+.popup-content {
+    text-align: center;
+    font-size: 30px;
+    margin-left: 210px;
+}
+
+.exit-image {
+    width: 50px; /* Adjust size as needed */
+    height: 50px; /* Adjust size as needed */
+    margin-bottom: 20px;
+}
+
+.popup-buttons {
+    margin-top: 20px;
+    border-radius: 15px;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
